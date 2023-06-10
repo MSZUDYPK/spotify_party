@@ -18,7 +18,7 @@ export default function JoinButton() {
 
     return (
         <div className="join-button-container" onClick={joinParty}>
-            <img className='join-button-image' src={JoinButtonImage} alt={'Join Image'}></img>
+            <img className='join-button-image' src={JoinButtonImage} alt={'Join'}></img>
             <p className="join-button-text">{'Join the party'}</p>
         </div>
     );

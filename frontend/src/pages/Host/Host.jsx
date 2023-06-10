@@ -6,7 +6,7 @@ import NextButton from "../../components/NextButon/NextButton";
 import {useNavigate} from "react-router-dom";
 
 export default function Host() {
-    const { roomCode, setRoomCode, isHost, setIsHost } = useContext(RoomContext);
+    const { roomCode, setRoomCode, setIsHost } = useContext(RoomContext);
     const [isLoading, setIsLoading] = useState(true);
     const navigate = useNavigate();
 

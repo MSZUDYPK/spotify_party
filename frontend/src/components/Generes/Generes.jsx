@@ -1,7 +1,6 @@
 import './Generes.css';
 import GeneresList from "./GeneresList/GeneresList";
 import React from "react";
-import axios from "axios";
 import {useNavigate} from "react-router-dom";
 import NextButton from "../NextButon/NextButton";
 

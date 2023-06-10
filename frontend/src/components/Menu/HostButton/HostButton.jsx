@@ -17,7 +17,7 @@ export default function HostButton() {
 
     return (
         <div className="host-button-container" onClick={hostParty}>
-            <img className='host-button-image' src={HostButtonImage} alt={'Host Image'}></img>
+            <img className='host-button-image' src={HostButtonImage} alt={'Host'}></img>
             <p className="host-button-text">{'Host a party'}</p>
         </div>
     );

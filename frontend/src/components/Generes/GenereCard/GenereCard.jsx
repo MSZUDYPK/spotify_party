@@ -18,7 +18,7 @@ export default function GenreCard({genere, cardColor, imgSrc}) {
         <div style={clickedStyle} className="genere-card-container" onClick={handleClick}>
             <h3>{genere}</h3>
             <div className="genere-card-image-container">
-                <img className="genere-image" src={imgSrc} alt="Genere photo"/>
+                <img className="genere-image" src={imgSrc} alt="Genere"/>
             </div>
         </div>
     );

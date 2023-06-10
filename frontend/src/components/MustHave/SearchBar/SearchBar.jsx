@@ -44,7 +44,7 @@ const SearchBar = ({ setResults, setLoading }) => {
         if(debouncedInput) {
             fetchData();
         }
-    }, [debouncedInput, setResults]);
+    }, [debouncedInput, setResults, setLoading]);
 
     const handleChange = (event) => {
         if (event && event.target) {

@@ -34,10 +34,11 @@ const run = () => {
 
 export default function Enjoy() {
     const { roomCode, isHost } = useContext(RoomContext);
+
     useEffect(() => {
         run();
         console.log(isHost);
-    }, []);
+    }, [isHost]);
 
     const handleCreatePlaylist = async () => {
         try {
