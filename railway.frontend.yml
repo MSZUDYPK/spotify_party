@@ -1,0 +1,5 @@
+build:
+  image: "docker/react/Dockerfile"
+  context: "docker/react"
+run:
+  command: "nginx -g daemon off;"

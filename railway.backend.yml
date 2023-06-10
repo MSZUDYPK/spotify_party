@@ -1,0 +1,5 @@
+build:
+  image: "docker/django/Dockerfile"
+  context: "docker/django"
+run:
+  command: "python manage.py runserver 0.0.0.0:8000"
